@@ -3,8 +3,8 @@ complete web project with additional service to add entries to a phonebook on my
 the second service,Result Server, will only search data from the database which is persistent on  ? 
 
 # Prerequisites
--EKS resources on a cloud provider like AWS. you can refer to my repo on "creating aws eks resources with terrafrm" repository. these resources includes kubectl component.
--images created and pushed on the docker-hub. See my repo on how to create a docker image. we are going to use docker images locating on my dockerhob repos. you can  refer to public repos or your own repos. osmangokturk/ and osmangokturk/
+- EKS resources on a cloud provider like AWS. you can refer to my repo on "creating aws eks resources with terrafrm" repository. these resources includes kubectl component.
+- images created and pushed on the docker-hub. See my repo on how to create a docker image. we are going to use docker images locating on my dockerhob repos. you can  refer to public repos or your own repos. osmangokturk/ and osmangokturk/
 -
 # Project manifest files resources
 We have deployment.yaml, service.yaml for "web-server", "result-server", MySQL,
