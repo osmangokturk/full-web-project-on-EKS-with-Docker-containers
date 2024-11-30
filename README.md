@@ -24,7 +24,11 @@ where a client can acces in his browser with workerNodeIP: nodeport defined in t
 For a complete guide refer to my project on the kubernetes manifest files. 
 
 # copy your manifest to the cluster(master node)
-scp -r 
+```bash
+scp -r -i C:\Users\xx\Downloads/myKeyPair.pem  C:\Users\xxx\/Downloads/myDocs ubuntu@MasterNODEIP:~/
+
+-r means folders, -i for key pair the first argument is the place of keypari, the second place the folder to be copied, the third argument is the place on the remote to put the code. here we put into home.
+
 will copy files from your local to the clıster. 
 establish an ssh tunnel to your cluster to apply 
 
